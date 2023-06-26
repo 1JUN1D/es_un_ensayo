@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo del documento, incluyendo colores, márgenes y flujo de elementos */
+body {
+    background-color: #333;
+    color: #000000;
+    margin: 0;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    padding: 20px 20px 20px 20px;
+    min-height: 100vh;
+
+    justify-content: space-evenly;
+
+}

@@ -15,7 +15,21 @@ h2{
     margin: 5px;
 }
 
-#map { min-height: 70vh; }
+a {
+    color: rgb(255, 255, 255); /* Cambia el color del texto a negro */
+    text-decoration: none; /* Elimina la decoración de subrayado */
+  }
+
+#map { 
+    position: relative;
+    min-height: 70vh; }
+
+#continue-btn {
+        position: absolute; /* Posicionar el botón en relación con el div del mapa */
+        bottom: 30px; /* Espacio desde la parte inferior del div del mapa */
+        right: 10px; /* Espacio desde el lado derecho del div del mapa */
+        z-index: 1000;
+}
 
 .pedir {
     display: flex;
@@ -57,9 +71,11 @@ div.mecanico{
 
     
 #ubicacion {
-        flex: 25;
-        background-color: #aae703;
-        color: #000000; /* O puedes utilizar width: 25%; */
+    display:flex;
+    flex: 5;
+    background-color: #aae703;
+    color: #000000;
+    align-items: center; /* O puedes utilizar width: 25%; */
 }
 
 /* Ajustar el tamaño del control geocoder */
